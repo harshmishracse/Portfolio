@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Professional Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Dark Mode Toggle -->
+  <button id="dark-mode-toggle" class="dark-mode-toggle">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>HARSH MISHRA</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Hi, I'm <span class="highlight">Harsh Mishra</span>, a <span class="highlight">Penetration Tester</span> passionate about new hacks and technology.</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>I'm a [Your Profession] with expertise in [Your Skills]. I love solving problems and creating innovative solutions. Here's a bit more about me:</p>
+        <ul>
+          <li>📍 Based in [Your Location]</li>
+          <li>💻 [Years of Experience] years of experience</li>
+          <li>🎓 [Your Education]</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <i class="fas fa-code"></i>
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript, React, Node.js</p>
+        </div>
+        <div class="skill">
+          <i class="fas fa-palette"></i>
+          <h3>UI/UX Design</h3>
+          <p>Figma, Adobe XD, Wireframing</p>
+        </div>
+        <div class="skill">
+          <i class="fas fa-database"></i>
+          <h3>Database Management</h3>
+          <p>MySQL, MongoDB, Firebase</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <img src="https://via.placeholder.com/300" alt="Project 1">
+          <h3>Project 1</h3>
+          <p>A brief description of the project and its impact.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project">
+          <img src="https://via.placeholder.com/300" alt="Project 2">
+          <h3>Project 2</h3>
+          <p>A brief description of the project and its impact.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project">
+          <img src="https://via.placeholder.com/300" alt="Project 3">
+          <h3>Project 3</h3>
+          <p>A brief description of the project and its impact.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 HARSH MISHRA. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
